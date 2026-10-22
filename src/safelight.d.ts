@@ -127,7 +127,7 @@ export interface PanelContribution {
     width?: number;
     height?: number;
   };
-  /** Old panel ids this panel takes the place of in saved layouts (Safelight 3.2.0+). */
+  /** Old panel ids this panel takes the place of in saved layouts (Safelight 3.0.1+). */
   replaces?: readonly string[];
 }
 
@@ -308,7 +308,7 @@ export type VariableWriteResult<T> =
   | { ok: false; reason: "unregistered" }
   | { ok: false; reason: "invalid"; message: string };
 
-/** Core's shared variables (Safelight 3.2.0+): named JSON values every
+/** Core's shared variables (Safelight 3.0.1+): named JSON values every
  *  extension can share across windows. A set() from an extension that hasn't
  *  seen the current value is refused; update() reads and writes the latest. */
 export interface SharedVariablesAPI {

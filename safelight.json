@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "keywords": ["gps", "gpx", "geotag", "track", "location"],
-  "minAppVersion": "3.2.0",
+  "minAppVersion": "3.0.1",
   "repository": "anthonyreimche/GPS-Track",
   "worksWith": ["anthonyreimche/Map"]
 }

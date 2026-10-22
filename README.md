@@ -36,7 +36,7 @@ and Map work without each other. They meet through core's shared variables:
 
 ## Install
 
-Install from the SafeLight **Extensions** window. Needs SafeLight 3.2.0 or
+Install from the SafeLight **Extensions** window. Needs SafeLight 3.0.1 or
 later (shared variables). Build from source with
 `npm install && npm run build`, which outputs `dist/index.js`.
 
