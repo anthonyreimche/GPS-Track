@@ -141,7 +141,7 @@ describe("text", () => {
     expect(targetsText(2, 3)).toBe("Targets: 2 selected photos");
   });
 
-  it("summarises a preview with only the reasons that occur", () => {
+  it("summarizes a preview with only the reasons that occur", () => {
     expect(previewText({ matched: 3, unmatched: 0, noTime: 0, outside: 0, gap: 0 })).toBe("3 matched · 0 unmatched");
     expect(previewText({ matched: 1, unmatched: 3, noTime: 1, outside: 0, gap: 2 })).toBe(
       "1 matched · 3 unmatched (1 no capture time, 2 across a gap)",

@@ -45,6 +45,6 @@ later (shared variables). Build from source with
 `npm run check` runs the typecheck, the build and the tests. The bundle test
 checks that `dist/index.js` never reads `import.meta` and never bundles React.
 
-## License
+## Licence
 
 MIT. See [LICENSE](LICENSE).
