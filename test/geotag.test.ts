@@ -42,7 +42,7 @@ describe("applyPlacements and undo", () => {
     expect(store().getState().undo).toHaveLength(1);
   });
 
-  it("applyUndo skips photos that are no longer in the catalog", async () => {
+  it("applyUndo skips photos that are no longer in the catalogue", async () => {
     const deps = catalogDeps();
     await applyUndo({ label: "x", previous: new Map([["missing", null]]) }, deps);
     expect(h.relocated).toEqual([]);

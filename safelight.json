@@ -1,7 +1,7 @@
 {
   "id": "gps-track",
   "name": "GPS Track",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Geotag photos from a GPX track: import the file, set the camera clock offset, preview the matches by capture time, and apply. Works in Library on its own; with Map installed, the track is drawn on the map.",
   "author": "Anthony Reimche",
   "main": "dist/index.js",

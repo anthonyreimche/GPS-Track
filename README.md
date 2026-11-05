@@ -18,10 +18,10 @@ many photos match by capture time, and apply.
   - Targets are the selected photos, or else every photo without a location
     that the Library shows. Photos that already have one are touched only
     behind *Overwrite existing locations*.
-- **Apply** writes the locations to the catalog in one batch, and **Undo**
+- **Apply** writes the locations to the catalogue in one batch, and **Undo**
   restores what those photos had before, for the session. Original files are
   never modified. Export's EXIF embedding (when it includes location) and
-  Advanced EXIF Tools read the same catalog fields.
+  Advanced EXIF Tools read the same catalogue fields.
 - The panel docks in **Library** by default. The loaded track is shared by the
   panel in every SafeLight window.
 

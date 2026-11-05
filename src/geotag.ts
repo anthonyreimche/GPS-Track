@@ -1,6 +1,6 @@
-// The only path that writes a location: build new catalog records, hand them
+// The only path that writes a location: build new catalogue records, hand them
 // to core's relocatePhotos (which persists them and updates this window's
-// catalog), and remember what they held for the panel's Undo.
+// catalogue), and remember what they held for the panel's Undo.
 
 import type { GpsFix } from "./geo";
 import { api } from "./rt";
@@ -87,7 +87,7 @@ export function undoLast(deps: GeotagDeps = catalogDeps()): Promise<void> {
   return undoing;
 }
 
-/** The live catalog as GeotagDeps. */
+/** The live catalogue as GeotagDeps. */
 export function catalogDeps(): GeotagDeps {
   const catalog = api.stores.useCatalogStore;
   return {
